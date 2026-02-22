@@ -21,7 +21,6 @@ author:
 include:
   - _pages
 
-
 defaults:
   - scope:
       path: ""
