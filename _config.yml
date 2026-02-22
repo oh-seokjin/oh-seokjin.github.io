@@ -1,0 +1,8 @@
+title: "Blog"
+description: ""
+url: "https://oh-seokjin.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
