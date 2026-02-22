@@ -48,8 +48,8 @@ comments:
     repo_id: "R_kgDORWCdSw"
     category: "Comments"
     category_id: "DIC_kwDORWCdS84C2-71"
-    mapping:
-    strict:
-    input_position:
-    lang:
+    mapping: "pathname"
+    strict: "0"
+    input_position: "bottom"
+    lang: "ko"
     reactions_enabled: "1"
