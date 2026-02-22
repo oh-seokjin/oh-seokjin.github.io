@@ -41,18 +41,15 @@ defaults:
 search: true
 search_provider: "lunr"
 
-
 comments:
   provider: "giscus"
   giscus:
     repo: "oh-seokjin/oh-seokjin.github.io"
     repo_id: "R_kgDORWCdSw"
-    category: "Announcements"
+    category: "Comments"
     category_id: "DIC_kwDORWCdS84C2-71"
-    mapping: "title"
-    strict: "0"
+    mapping:
+    strict:
+    input_position:
+    lang:
     reactions_enabled: "1"
-    emit_metadata: "0"
-    input_position: "bottom"
-    theme: "preferred_color_scheme"
-    lang: "ko"
