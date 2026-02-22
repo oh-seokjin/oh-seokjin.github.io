@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "seokjin oh"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "assets/profile.jpg"
   bio: ""
   location: "South Korea"
   links:
