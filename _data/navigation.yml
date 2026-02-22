@@ -1,9 +1,3 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Review"
-    url: /review/
   - title: "Posts"
     url: /categories/
