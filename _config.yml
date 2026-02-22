@@ -47,7 +47,7 @@ comments:
   giscus:
     repo: "oh-seokjin/oh-seokjin.github.io"
     repo_id: "R_kgDORWCdSw"
-    category: "General"
+    category: "Comments"
     category_id: "DIC_kwDORWCdS84C2-71"
     mapping: "pathname"
     strict: "0"
