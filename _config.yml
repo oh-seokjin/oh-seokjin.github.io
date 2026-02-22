@@ -6,3 +6,13 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
+
+author:
+  name: "seokjin oh"
+  avatar: "/assets/images/profile.jpg"
+  # bio: ""
+  location: "South Korea"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/seokjinoh/"
