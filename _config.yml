@@ -10,7 +10,7 @@ plugins:
 author:
   name: "seokjin oh"
   avatar: "/assets/images/profile.jpg"
-  # bio: ""
+  bio: ""
   location: "South Korea"
   links:
     - label: "LinkedIn"
