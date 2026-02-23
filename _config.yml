@@ -29,6 +29,7 @@ defaults:
       layout: single
       author_profile: true
       comments: true
+      show_date: true
   - scope:
       path: ""
       type: posts
@@ -36,6 +37,7 @@ defaults:
       layout: single      
       author_profile: true
       comments: true
+      show_date: true
 
 search: true
 search_provider: "lunr"
@@ -43,8 +45,9 @@ search_provider: "lunr"
 comments:
   provider: "giscus"
   giscus:
+    repo: "oh-seokjin/oh-seokjin.github.io"
     repo_id: "R_kgDORWCdSw"
-    category_name: "Comments"
-    category_id: "DIC_kwDORWCdS84C2-71"
+    category_name: "Announcements"
+    category_id: "DIC_kwDORWCdS84C2-70"
     discussion_term: "pathname"
     reactions_enabled: "1"
