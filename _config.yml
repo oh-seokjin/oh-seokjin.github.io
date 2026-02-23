@@ -1,7 +1,7 @@
 title: "Untitled"
 description: ""
 url: "https://oh-seokjin.github.io"
-
+repository: "oh-seokjin/oh-seokjin.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
@@ -51,3 +51,4 @@ comments:
     category_id: "DIC_kwDORWCdS84C2-70"
     discussion_term: "pathname"
     reactions_enabled: "1"
+    theme: "light"
