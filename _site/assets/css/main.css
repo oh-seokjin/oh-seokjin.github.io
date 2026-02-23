@@ -578,7 +578,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution { border-inline-sta
 @media (min-width: 80em) { .breadcrumbs { max-width: 1280px; } }
 .breadcrumbs ol { padding: 0; list-style: none; font-size: 0.75em; }
 @media (min-width: 64em) { .breadcrumbs ol { float: inline-end; width: calc(100% - 200px); } }
-@media (min-width: 80em) { .breadcrumbs ol { width: calc(100% - 300px); } }
+@media (min-width: 80em) { .breadcrumbs ol { width: calc(100% - 220px); } }
 .breadcrumbs li { display: inline; }
 .breadcrumbs .current { font-weight: bold; }
 
@@ -977,7 +977,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .initial-content, .search-content { flex: 1 0 auto; }
 
 @media (min-width: 64em) { .page { float: inline-end; width: calc(100% - 200px); padding-inline-end: 200px; } }
-@media (min-width: 80em) { .page { width: calc(100% - 300px); padding-inline-end: 300px; } }
+@media (min-width: 80em) { .page { width: calc(100% - 220px); padding-inline-end: 220px; } }
 .page .page__inner-wrap { float: inline-start; margin-top: 1em; margin-inline: 0; width: 100%; clear: both; }
 .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share { position: relative; float: inline-start; margin-inline: 0; width: 100%; clear: both; }
 
@@ -1089,7 +1089,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .page__related { clear: both; float: inline-start; margin-top: 2em; padding-top: 1em; border-top: 1px solid #f2f3f3; }
 .page__related::after { clear: both; content: ""; display: table; }
 @media (min-width: 64em) { .page__related { float: inline-end; width: calc(100% - 200px); } }
-@media (min-width: 80em) { .page__related { width: calc(100% - 300px); } }
+@media (min-width: 80em) { .page__related { width: calc(100% - 220px); } }
 .page__related a { color: inherit; text-decoration: none; }
 
 .page__related-title { margin-bottom: 10px; font-size: 0.75em; text-transform: uppercase; }
@@ -1101,7 +1101,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 /* ========================================================================== ARCHIVE ========================================================================== */
 .archive { margin-top: 1em; margin-bottom: 2em; }
 @media (min-width: 64em) { .archive { float: inline-end; width: calc(100% - 200px); padding-inline-end: 200px; } }
-@media (min-width: 80em) { .archive { width: calc(100% - 300px); padding-inline-end: 300px; } }
+@media (min-width: 80em) { .archive { width: calc(100% - 220px); padding-inline-end: 220px; } }
 
 .archive__item { position: relative; }
 .archive__item a { position: relative; z-index: 10; }
@@ -1134,7 +1134,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 /* Grid view ========================================================================== */
 .archive .grid__wrapper { /* extend grid elements to the right */ }
 @media (min-width: 64em) { .archive .grid__wrapper { margin-inline-end: -200px; } }
-@media (min-width: 80em) { .archive .grid__wrapper { margin-inline-end: -300px; } }
+@media (min-width: 80em) { .archive .grid__wrapper { margin-inline-end: -220px; } }
 
 .grid__item { margin-bottom: 2em; }
 @media (min-width: 37.5em) { .grid__item { float: inline-start; width: 48.9795918367%; }
@@ -1207,7 +1207,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .sidebar:hover { opacity: 1; }
   .sidebar.sticky { overflow-y: auto; /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); } }
-@media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
+@media (min-width: 80em) { .sidebar { width: calc(220px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: "Aptos", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 .sidebar p, .sidebar li { font-family: "Aptos", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 0.75em; line-height: 1.5; }
@@ -1219,7 +1219,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .sidebar__right.sticky { clear: both; position: -webkit-sticky; position: sticky; top: 2em; float: inline-end; }
   .sidebar__right.sticky::after { clear: both; content: ""; display: table; }
   .sidebar__right.sticky .toc .toc__menu { overflow-y: auto; max-height: calc(100vh - 7em); } }
-@media (min-width: 80em) { .sidebar__right { width: 300px; margin-inline-end: -300px; } }
+@media (min-width: 80em) { .sidebar__right { width: 220px; margin-inline-end: -220px; } }
 
 @media (min-width: 64em) { .splash .sidebar__right { position: relative; float: inline-end; margin-inline-end: 0; } }
 @media (min-width: 80em) { .splash .sidebar__right { margin-inline-end: 0; } }
